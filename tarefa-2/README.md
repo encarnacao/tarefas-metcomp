@@ -1,4 +1,4 @@
-# TAREFA 2
+# TAREFA 2: LEI DE HOOKE
 
 A tarefa dois foi a primeira a envolver de fato fisica. Através do método de Newton-Raphson e o de Bisseção calculamos a deformação
 de uma mola que liga um bloco de massa 1 kg ao teto, sendo que o conjunto está em equilibrio. O valor utilizado para o método de
