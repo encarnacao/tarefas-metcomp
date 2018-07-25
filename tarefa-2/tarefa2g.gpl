@@ -1,0 +1,14 @@
+set title 'Numero de Iterações em função de Log10(Precisão)'
+set xl 'Log10(Precisão)'
+set yl 'Iterações'
+set mxtics 2
+set xtics nomirror
+set ytics 2 nomirror
+set border 3
+set grid mxtics xtics ytics ls 0
+plot 'graph.dat' i 0 w lp pt 7 lc rgb 'red' t columnheader, '' i 1 w lp pt 7 lc rgb 'blue' t columnheader
+set term gif
+set out 'tarefa2.gif'
+replot
+set term qt
+replot
