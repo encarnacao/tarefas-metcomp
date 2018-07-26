@@ -1,1 +1,5 @@
-# TAREFA 4
+# TAREFA 4: CALCULO DA POSIÇÃO DE UM PROJÉTIL ATRAVÉS DO MÉTODO DOS TRAPÉZIOS
+**Integrais!** Sabendo a equação de *velocidade* de um projétil, podemos integrá-la em função do tempo para achar a *posição* do projétil.
+No caso, temos uma equação de velocidade envolvendo uma força de atrito dada pelo professor, tal que **v**(t) = (v0x **i**+(v0y-g.t) **j**)exp(-k.t/m). O programa calcula todas as posições do projétil a cada intervalo de tempo dt, desde o lançamento do solo até ele antigí-lo novamente. O intervalo de tempo, as velocidades iniciais, a contante k e a massa deveriam ser lidas pelo teclado.<br><br>
+Parte da tarefa também era fazer um gráfico comparando o lançamento com contantes k=0, k=0.5 e k=1. Os dados do lançamento eram v0x = 25 m/s, v0y = 5 m/s, dt = 0.01 e m = 0.9 kg. Pra isso eu criei um programa auxiliar, mais automatizado que o da tarefa 2. Ele apenas requer que o computador tenha o gnuplot, e gera a gif automaticamente. Devido as diferenças dos comandos do terminal do Windows e do Linux, o programa auxiliar tem duas versões.<br>
+<p align="center"><img src = "https://i.imgur.com/IU7pDyo.gif" alt = "Gráfico da tarefa 4 comparando diversos lançamentos"></p>
