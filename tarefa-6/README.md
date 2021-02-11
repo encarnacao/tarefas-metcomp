@@ -9,7 +9,7 @@ Existem duas versões do programa apenas pelo simples motivo de que eu quis tent
 
 Por fim, segue um plot das primeiras 10 simulações, apenas a titulo de curiosidade. O programa mesmo não gera arquivo ou imagem, mas eu fiz quando mais novo porque queria ver a parada bonitinha, e é bonitinha mesmo. Cada linha de cor diferente representa um lançamento diferente.É possível ver claramente onde ocorre a explosão pela mudança brusca do movimento, mas está longe demais para ver as diferenças no templo de explosão. E também, é um plot de posição x posição, não de posição x tempo. Este que seria útil para ver a diferença do tempo de explosão. Apesar disso, como todas as condições iniciais são as mesmas, é possível ver que há algo aleatório ocorrendo quando há a explosão.
 
-<center>![Gráfico com o plot dos lançamentos][lancamentos]</center>
+![Gráfico com o plot dos lançamentos][lancamentos]
 
 Bom, eu fiquei com 10 na tarefa, suponho que tudo esteja certo. 
 
